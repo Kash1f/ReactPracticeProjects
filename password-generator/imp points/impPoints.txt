@@ -1,0 +1,1 @@
+1. length, numbers, characters, ye sab dependencies hain jo k useCallback me use hongi. ye sab dependencies basically state variables hain jo humne ooper useState k sath banaye hain to make our project
