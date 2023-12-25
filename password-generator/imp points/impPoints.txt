@@ -11,3 +11,5 @@ mere paas jo function hai usay jitna ho sakay apne paas cache(memory) me rakh lo
    str = "" wo data jis se hamara password aaiga
 
  4:35:28
+
+5. Aik password banana hai jo k random characters pick karega, har baar random values ajaingi loop chala k but loop chalega kitni baar? wo depend karta hai password ki length pe
