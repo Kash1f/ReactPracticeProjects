@@ -1,1 +1,13 @@
-1. length, numbers, characters, ye sab dependencies hain jo k useCallback me use hongi. ye sab dependencies basically state variables hain jo humne ooper useState k sath banaye hain to make our project
+1. useCallback is a react hook that lets you cache a function definition between re-renders
+
+mere paas jo function hai usay jitna ho sakay apne paas cache(memory) me rakh lo agar mai usay dubara run karun to us se pehle ka jitna part run hota hai usay use karlo
+
+
+2. length, numbers, characters, ye sab dependencies hain jo k useCallback me use hongi. ye sab dependencies basically state variables hain jo humne ooper useState k sath banaye hain jo k baar baar change hongi aur function aik naye siray se call hoga
+
+3. setPassword bhi aik dependency hai, iski basis pe bhi hum cheezon ko change karengy
+
+4. pass = "" me generated password ajaiga us k baad setPassword se isme add hojaiga
+   str = "" wo data jis se hamara password aaiga
+
+ 4:35:28
