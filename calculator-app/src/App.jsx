@@ -1,8 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import './App.css'
 
 
 function App() {
+
+  const [input, setInput] = useState(0)
 
 
   return (
@@ -10,7 +12,7 @@ function App() {
    <div className="container">
 
     <div className="calc">
-      <h1 id="input">0</h1>
+      <h1 id="input">{input}</h1>
       <div>
       <button>C</button>
       <button>&lt;</button>
@@ -41,12 +43,9 @@ function App() {
       <button>.</button>
       <button>=</button>
       </div>
-
-
-
-
     </div>
-   </div>
+    </div>
+   
     </>
   )
 }
