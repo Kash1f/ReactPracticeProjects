@@ -1,0 +1,5 @@
+1. making a container and setting it in center
+2. adding buttons to the calculator
+3. using useState to change the state [input, setInput]
+4. setInput will work according to the buttons that will be 
+pressed
