@@ -3,3 +3,6 @@
 3. using useState to change the state [input, setInput]
 4. setInput will work according to the buttons that will be 
 pressed
+5. A function named handleClickButton will be made and will be called with each button, wo function call hone k baad if conditions k hisab se chalega, jo bhi button press hoga to us k hisab se if-else work karega.
+6. agar value remove karni hui end se to slice lagega with setInput(input). -1 slice means end se aik value minus because we dont know k the what the user will enter so back se aik value minus hojaigi. state se aik value minus hojaigi
+7. setInput me input value isliye hai kyun k har cheez input ki state me hai
