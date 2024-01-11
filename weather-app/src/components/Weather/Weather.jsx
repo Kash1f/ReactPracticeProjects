@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Search from '../Search/Search'
 
-const index = () => {
+
+
+const Weather = () => {
+
+  const [search, setSearch] = useState('')
+
+
+
+
   return (
     <div>
-      <Search/> 
-      Weather
+  <Search/>
+  search={search}
+  setSearch={setSearch}
+     Weather
     </div>
   )
 }
 
-export default index
+export default Weather
